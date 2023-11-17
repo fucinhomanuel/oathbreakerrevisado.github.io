@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Oathbreaker Revisado</title>
+        <link rel="stylesheet" href="stylesheet.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+		
+        <script>
+            // Salva a posição atual ao sair da página
+            window.onbeforeunload = function() {
+                localStorage.setItem('scrollPos', window.scrollY);
+            };
+            window.onload = function() {
+                // Recupera a posição anterior da página após recarregar
+                var scrollPos = localStorage.getItem('scrollPos');
+                if (scrollPos !== null) {
+                    window.scrollTo(0, parseInt(scrollPos));
+                    localStorage.removeItem('scrollPos'); // Remove a posição após utilizá-la
+                }
+            };
+        </script>
+    </head>
+    <body>
+        <main>
+            <article>
+                <section class="titulo">
+                    <header>Paladino: Oathbreaker (Revisado)(<strong> PARA  O HEITOR CHORÃO</strong>)</header>
+                </section>
+                <section class="h2dotitulo">
+                    <h2>Você poder usar qualquer spell slot para soltar as Magias listadas abaixo:&nbsp;&nbsp; <span class="parenteses">(Level 15 e 18 uma vez por descanço longo)</span>
+                    </h2>
+                </section>
+            </article>
+        </main>
+        <div class="tabela" id="tabela">
+            <table class="striped-table">
+                <thead>
+                    <tr>
+                        <th class="level">Level</th>
+                        <th class="spell">Spell</th>
+                        <th class="features">Features</th>
+                    </tr>
+					
+                </thead>
+                <tbody>
+				
+                    <tr>
+                        <td>Level 1</td>
+                        <td>
+                            <a href="http://dnd5e.wikidot.com/spell:inflict-wounds" target="_blank">Inflict wounds</a>, <a href="http://dnd5e.wikidot.com/spell:false-life" target="_blank">False Life</a>
+                        </td>
+                        <td>
+                            <a href="#espada-do-criador">Espada do criador</a>, <a href="#companheiro-da-miasma"> Companheiro Da Miasma</a>
+                        </td>
+                    </tr>
+                    <tr>
+                    <tr>
+                        <td>Level 3</td>
+                        <td>
+                            <a href="http://dnd5e.wikidot.com/spell:animate-dead" target="_blank">Animate dead</a>, <a href="http://dnd5e.wikidot.com/spell:summon-undead" target="_blank">Summon undead</a>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Level 5</td>
+                        <td>
+                            <a href="http://dnd5e.wikidot.com/spell:vampiric-touch" target="_blank">Vampiric Touch</a>, <a href="http://dnd5e.wikidot.com/spell:raise-dead" target="_blank"> Raise Dead </a>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Level 7</td>
+                        <td></td>
+                        <td>
+                            <a href="#corpo-morto-vivo">Corpo Morto-Vivo</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Level 8</td>
+                        <td>
+                            <a href="http://dnd5e.wikidot.com/spell:create-undead" target="_blank">Create Undead</a>, <a href="http://dnd5e.wikidot.com/spell:circle-of-death" target="_blank">Circle of Death</a>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Level 15</td>
+                        <td>
+                            <a href="http://dnd5e.wikidot.com/spell:finger-of-death" target="_blank">Finger of death
+                        </td>
+                        <td>
+                            <a href="#explosao-mortifera">Explosão Mortífera</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Level 18</td>
+                        <td>
+                            <a href="http://dnd5e.wikidot.com/spell:true-resurrection" target="_blank">True Resurrection</a>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Level 20</td>
+                        <td></td>
+                        <td>
+                            <a href="#senso-da-morte">Senso da Morte</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+		
+        <div class="features">
+            <section class="espada do criador" id="espada-do-criador">
+                <h2 class="highlight-on-scroll">Espada do Criador</h2>
+                <p>Você recebe uma espada chicote que tem 4d6+CHA no modo espada e 2d6+CHA no modo chicote 15 ft (Ação Bonus para trocar entre modos).</p>
+		    </section>
+			
+	    <div class="espada-do-heitor1">
+    <img src="https://cdn.discordapp.com/attachments/757812827246428171/1174905250667311174/enhk5ic7dlo61.png?ex=65694ac8&is=6556d5c8&hm=e1b57b3e0ffe834e3067179b73a12ab365a3f4844cee90e9ce7e1d9ddd821916&" alt="Descrição da imagem">
+</div>
+<div class="espada-do-heitor2">
+    <img src="https://cdn.discordapp.com/attachments/757812827246428171/1174905001601150986/3h_sword_of_the_creator_by_psycosid09_dfpzu9h-fullview.png?ex=65694a8d&is=6556d58d&hm=bea49bd0369099744b2afa02e77bd6003bac282ba291c69bf0d214b281a81ebf&" alt="Descrição da imagem">
+</div>
+
+
+            
+            <section class="companheiro da miasma" id="companheiro-da-miasma">
+                <h2 class="highlight-on-scroll">Companheiro Da Miasma</h2>
+                <p>Você e ele têm um elo mental de 100 pés, podendo trocar quando desejarem, mas apenas um por vez. Quando a batalha terminar ou ele morrer, se tornará uma pilha de cinzas imodificáveis por qualquer meio, exceto pelo feitiço Wish.</p>
+                <p><strong>Level inicial:</strong> Tiny, Small e Medium</p>
+                <p><strong>Level 15:</strong> Large e Huge</p>
+                <p><strong>Level 19:</strong> Gargantuan</p>
+            </section>
+            <section class="corpo morto-vivo" id="corpo-morto-vivo">
+                <h2 class="highlight-on-scroll">Corpo Morto-Vivo</h2>
+                <p>Você não precisa comer, beber ou respirar. 3 vezes por batalha você pode trocar seu<strong> Dano Normal</strong> por <strong>Dano Necrótico.</strong> </p>
+            </section>
+            <section class="explosao mortifera" id="explosao-mortifera">
+                <h2 class="highlight-on-scroll">Explosão Mortífera</h2>
+                <p>Quando você ficar com 0 de HP você explode com um raio de 30 ft causando 4d10+CHA de Dano, depois disso você volta com 1 HP. Uma vez por descanço longo.</p>
+            </section>
+            <section class="senso da morte" id="senso-da-morte">
+                <h2 class="highlight-on-scroll">Senso da Morte</h2>
+                <p>Sua união com os mortos o deixou mais perto da imortalidade, uma vez a cada 3 descansos longos você pode usar sua Ação Bonus(Voce não subtrai do hp atual) para absorver até 200 de dano e soltar tudo em um alvo a sua escolha. Você pode acumular esse dano por tempo indeterminado e soltar quando quiser.</p>
+            </section>
+        </div>
+		
+		 <!-- JavaScript -->
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth'
+          });
+
+          const highlightedElement = target.querySelector('.highlight-on-scroll');
+          if (highlightedElement) {
+            highlightedElement.classList.add('highlight');
+            setTimeout(() => {
+              highlightedElement.classList.remove('highlight');
+            }, 2000); // Remove a classe de destaque após 2 segundos (2000ms)
+          }
+        }
+      });
+    });
+  </script>
+  <script>
+        // Adiciona a classe 'hidden' ao corpo durante o carregamento
+        document.body.classList.add('hidden');
+
+        window.onload = function () {
+            // Remove a classe 'hidden' após o carregamento completo
+            document.body.classList.remove('hidden');
+
+            // Restante do seu código onload...
+            var scrollPos = localStorage.getItem('scrollPos');
+            if (scrollPos !== null) {
+                window.scrollTo(0, parseInt(scrollPos));
+                localStorage.removeItem('scrollPos');
+            }
+        };
+    </script>
+    </body>
+</html>
